@@ -1,14 +1,7 @@
-import torch
-import torch.nn as nn
 import torch.optim as optim
-import torch.nn.functional as F
-import torch.backends.cudnn as cudnn
 
 import torchvision
-import torchvision.transforms as transforms
 
-import os
-import argparse
 from MobileNetV2 import *
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader

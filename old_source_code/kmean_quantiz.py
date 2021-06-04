@@ -1,16 +1,8 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torchvision
-import torch.nn.functional as F
 from torchvision.datasets import CIFAR10
-from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
-import numpy as np
-from MyModel import MyModel
-import pandas as pd
-from tensorboardX import SummaryWriter
-import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 SEED = 0

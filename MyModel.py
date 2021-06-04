@@ -15,11 +15,13 @@ class MyModel(nn.Module):
             CFG = {
                 'batch_size': 128,
                 'learning_rate': 0.001,
-                'epoch': 3,
+                'epoch': 10,
+                'lambda': 1
             }
         self.conv1 = nn.Conv2d(1, 6, 5, padding=0)
         self.conv2 = nn.Conv2d(6, 16, 5, padding=0)
         self.fc1 = nn.Linear(16 * 4 * 4, 10)
+
 
         self.CFG = CFG
         self.optimizer = optim.Adam(self.parameters(), self.CFG['learning_rate'])
@@ -27,8 +29,8 @@ class MyModel(nn.Module):
         transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
         self.train_data = MNIST('./data', train=True, download=True, transform=transformer)
         self.test_data = MNIST('./data', train=False, download=True, transform=transformer)
-        # train_data = CIFAR10('./data', train=True, download=True, transform=transformer)
-        # test_data = CIFAR10('./data', train=False, download=True, transform=transformer)
+        #self.train_data = CIFAR10('./data', train=True, download=True, transform=transformer)
+        #self.test_data = CIFAR10('./data', train=False, download=True, transform=transformer)
         self.train_loader = DataLoader(self.train_data, batch_size=self.CFG['batch_size'], shuffle=True)
         self.test_loader = DataLoader(self.test_data, batch_size=self.CFG['batch_size'], shuffle=True)
         self.Loss_func = nn.CrossEntropyLoss()
