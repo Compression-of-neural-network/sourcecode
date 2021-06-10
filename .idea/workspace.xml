@@ -20,29 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KaiModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/KaiModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobileNetV2_200.mod" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models_after_training/MobileNetV2_200.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobileNetV2_200_old.log" beforeDir="false" afterPath="$PROJECT_DIR$/result_of_quantiz_after_training_without_curvature/MobileNetV2_200_old.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobileNetV2_structure.log" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MobileNetV2_structure.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MobileNetV2_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_MNIST.mod" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models_after_training/MyModel_MNIST.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_MNIST_200.log" beforeDir="false" afterPath="$PROJECT_DIR$/result_of_quantiz_after_training_without_curvature/MyModel_MNIST_200.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_MNIST_200.mod" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models_after_training/MyModel_MNIST_200.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_cifar.mod" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models_after_training/MyModel_cifar.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_cifar_200.log" beforeDir="false" afterPath="$PROJECT_DIR$/result_of_quantiz_after_training_without_curvature/MyModel_cifar_200.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_cifar_200.mod" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models_after_training/MyModel_cifar_200.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/backup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kmeans_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/kmeans_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda=1.pth" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models_after_training/lambda=1.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message_MNIST.log" beforeDir="false" afterPath="$PROJECT_DIR$/result_of_quantiz_after_training_without_curvature/message_MNIST.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message_cifar.log" beforeDir="false" afterPath="$PROJECT_DIR$/result_of_quantiz_after_training_without_curvature/message_cifar.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/show_structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/show_structure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/test_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_kmeans_quantiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_kmeans_quantiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/test_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyModel_train_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_degree_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_degree_kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
