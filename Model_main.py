@@ -52,6 +52,7 @@ def test(epoch):
         data = data.to(device)
         target = target.to(device)
         output = net(data).to(device)
+
         t = criterion(output, target)
         test_loss += t.item()
         pred = output.data.max(1, keepdim=True)[1]

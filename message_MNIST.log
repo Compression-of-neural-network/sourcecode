@@ -1,0 +1,63 @@
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0409, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 256
+after kmean:
+
+Test set: Avg. loss: 0.0411, Accuracy: 9892/10000 (99%)
+
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0407, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 128
+after kmean:
+
+Test set: Avg. loss: 0.0414, Accuracy: 9889/10000 (99%)
+
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0407, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 64
+after kmean:
+
+Test set: Avg. loss: 0.0451, Accuracy: 9884/10000 (99%)
+
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0407, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 32
+after kmean:
+
+Test set: Avg. loss: 0.0456, Accuracy: 9886/10000 (99%)
+
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0407, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 16
+after kmean:
+
+Test set: Avg. loss: 0.0501, Accuracy: 9861/10000 (99%)
+
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0408, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 8
+after kmean:
+
+Test set: Avg. loss: 0.0580, Accuracy: 9824/10000 (98%)
+
+befrore Kmeans:
+
+Test set: Avg. loss: 0.0421, Accuracy: 9893/10000 (99%)
+
+Number of cluster centers: 4
+after kmean:
+
+Test set: Avg. loss: 0.2571, Accuracy: 9248/10000 (92%)
+

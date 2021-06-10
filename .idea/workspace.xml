@@ -20,7 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyModel_MNIST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyModel_MNIST_200.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/show_structure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kmeans_quantiz_use_hessian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyModel.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyModel_cifar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_1000_16.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_1000_16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_1000_256.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_1000_256.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_1000_64.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_1000_64.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_100_16.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_100_16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_100_64.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_100_64.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_10_16.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_10_16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_10_64.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_10_64.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message_not_use_grad.log" beforeDir="false" afterPath="$PROJECT_DIR$/Kmeans_quantiz_use_hassian/message_not_use_grad.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_source_code/test_kmeans_quantiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_kmeans_quantiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_kmeans_quantiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use_degree_kmeans.py.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_degree_kmeans.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,41 +65,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backup.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\old_source_code" />
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git" />
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\Kmeans_quantiz_use_hassian" />
       <recent name="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git" />
       <recent name="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\old_source_code" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\mymodel" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\test_quantiz" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\cifar_model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_kmeans_quantiz">
-    <configuration name="Compute_hessian" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Compute_hessian.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Compute_second_grad" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.show_structure">
+    <configuration name="show_structure" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="masterthesis_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\Compute_second_grad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/show_structure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Model_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="test_4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="masterthesis_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,91 +114,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="kmeans_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="master thesis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="master" type="PythonConfigurationType" factoryName="Python">
-      <module name="master thesis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quantiz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_hessian" type="PythonConfigurationType" factoryName="Python">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_hessian.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\test_kmeans_quantiz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_kmeans_quantiz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,28 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_method" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_method.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train_MyModel" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="train_model" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="masterthesis_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,61 +165,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="use_degree_kmeans" type="PythonConfigurationType" factoryName="Python">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\backup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="use_degree_kmeans.py" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pinliangli\Desktop\masterarbeit\masterthesis_git\use_degree_kmeans.py.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.Compute_hessian" />
-      <item itemvalue="Python.Compute_second_grad" />
-      <item itemvalue="Python.Model_main" />
-      <item itemvalue="Python.kmeans_test" />
-      <item itemvalue="Python.main1" />
-      <item itemvalue="Python.master" />
-      <item itemvalue="Python.read_hessian" />
+      <item itemvalue="Python.train_model" />
+      <item itemvalue="Python.show_structure" />
+      <item itemvalue="Python.test_4" />
       <item itemvalue="Python.test_kmeans_quantiz" />
-      <item itemvalue="Python.test_method" />
-      <item itemvalue="Python.train_MyModel" />
-      <item itemvalue="Python.use_degree_kmeans" />
-      <item itemvalue="Python.use_degree_kmeans.py" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -355,43 +202,43 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="976" y="291" key="#Compute_hessian_(1)/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638195956" />
-    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622762302702">
+    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622910940752">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="792" y="664" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1622286809805" />
-    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622762302702" />
+    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622910940752" />
     <state x="1002" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622665723449">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1002" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622665723449" />
-    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622641686629">
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622898959208">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622641686629" />
+    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622898959208" />
     <state x="766" y="594" key="EnvironmentVariablesDialog" timestamp="1622287454246">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="766" y="594" key="EnvironmentVariablesDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622287454246" />
-    <state x="1057" y="671" key="FileChooserDialogImpl" timestamp="1622756689767">
+    <state x="1057" y="671" key="FileChooserDialogImpl" timestamp="1622909831589">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1057" y="671" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622756689767" />
-    <state width="2522" height="534" key="GridCell.Tab.0.bottom" timestamp="1622763552415">
+    <state x="1057" y="671" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622909831589" />
+    <state width="1882" height="346" key="GridCell.Tab.0.bottom" timestamp="1622914004838">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2522" height="534" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622763552415" />
-    <state width="2522" height="534" key="GridCell.Tab.0.center" timestamp="1622763552415">
+    <state width="1882" height="346" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622914004838" />
+    <state width="1882" height="346" key="GridCell.Tab.0.center" timestamp="1622914004838">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2522" height="534" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622763552415" />
-    <state width="2522" height="534" key="GridCell.Tab.0.left" timestamp="1622763552414">
+    <state width="1882" height="346" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622914004838" />
+    <state width="1882" height="346" key="GridCell.Tab.0.left" timestamp="1622914004838">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2522" height="534" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622763552414" />
-    <state width="2522" height="534" key="GridCell.Tab.0.right" timestamp="1622763552415">
+    <state width="1882" height="346" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622914004838" />
+    <state width="1882" height="346" key="GridCell.Tab.0.right" timestamp="1622914004838">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2522" height="534" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622763552415" />
+    <state width="1882" height="346" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622914004838" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1622638350233">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -420,11 +267,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="837" y="429" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622637931208" />
-    <state x="-1861" y="640" width="1452" height="807" key="dock-window-1" timestamp="1622764126123">
-      <screen x="-1920" y="247" width="1920" height="1040" />
+    <state x="-857" y="604" width="1936" height="647" key="dock-window-1" timestamp="1623259641125">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="-1861" y="640" width="1452" height="807" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1622764126123" />
-    <state x="-1861" y="640" width="1452" height="807" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622762231171" />
+    <state x="-857" y="604" width="1936" height="647" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623259641125" />
+    <state x="410" y="419" width="1936" height="647" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622909762421" />
     <state x="1448" y="632" width="672" height="678" key="search.everywhere.popup" timestamp="1622743966465">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
