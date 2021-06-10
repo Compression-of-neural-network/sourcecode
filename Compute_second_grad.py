@@ -1,5 +1,8 @@
 from MobileNetV2 import *
-from MyModel import *
+from MyModel_cifar import *
+from MyModel_MNIST import *
+import torchvision
+
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
 
