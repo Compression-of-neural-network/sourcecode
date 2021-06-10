@@ -3,8 +3,7 @@ import torchvision
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader
 #from MyModel import *
-from KaiModel import *
-from kmeans_pytorch import kmeans, kmeans_predict
+from old_source_code.KaiModel import *
 import operator
 
 

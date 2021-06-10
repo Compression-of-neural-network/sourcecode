@@ -49,7 +49,7 @@ if __name__ == '__main__':
     net = MobileNetV2().to(device)
     # vgg19 = models.vgg19(pretrained=True).to(device)
 
-    log_file = open("MyModel_MNIST_200.log", "w")
+    log_file = open("result_of_quantiz_after_training_without_curvature/MyModel_MNIST_200.log", "w")
     #original_stdout = sys.stdout
     #sys.stdout = log_file
 
