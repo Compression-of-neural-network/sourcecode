@@ -192,11 +192,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_kmeans_quantiz" />
-      <item itemvalue="Python.test_4" />
       <item itemvalue="Python.Compute_second_grad" />
-      <item itemvalue="Python.show_distribute" />
       <item itemvalue="Python.MyModel_train_model" />
+      <item itemvalue="Python.show_distribute" />
+      <item itemvalue="Python.test_4" />
+      <item itemvalue="Python.test_kmeans_quantiz" />
     </list>
   </component>
   <component name="SvnConfiguration">
