@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compute_second_grad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Compute_second_grad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_source_code/test_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/test_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_grad.pt" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad.pt" afterDir="false" />
-    </list>
+    <list default="true" id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/show_distribute.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/old_source_code/test_method.py" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -64,7 +59,7 @@
       <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\Kmeans_quantiz_use_hassian" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.show_distribute">
+  <component name="RunManager" selected="Python.test_method">
     <configuration name="Compute_second_grad" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="masterthesis_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,10 +186,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_method" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="thesis_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old_source_code" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/old_source_code/test_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Compute_second_grad" />
       <item itemvalue="Python.MyModel_train_model" />
       <item itemvalue="Python.show_distribute" />
+      <item itemvalue="Python.test_method" />
       <item itemvalue="Python.test_4" />
       <item itemvalue="Python.test_kmeans_quantiz" />
     </list>
@@ -204,7 +221,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="" />
+      <changelist id="d4080777-7d1a-4e64-b729-03c44ba0d8d1" name="Default Changelist" comment="" />
       <created>1622279508611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -229,11 +246,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="976" y="291" key="#Compute_hessian_(1)/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638195956" />
-    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623926315404">
+    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624286868181">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="792" y="664" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623337625565" />
-    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623926315404" />
+    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624286868181" />
     <state x="1002" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623926232545">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -247,11 +264,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="766" y="594" key="EnvironmentVariablesDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622287454246" />
-    <state x="1057" y="671" key="FileChooserDialogImpl" timestamp="1623926314114">
+    <state x="1057" y="671" key="FileChooserDialogImpl" timestamp="1624286867225">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1127" y="745" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623337619016" />
-    <state x="1057" y="671" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623926314114" />
+    <state x="1057" y="671" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624286867225" />
     <state width="1882" height="497" key="GridCell.Tab.0.bottom" timestamp="1623997513177">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
