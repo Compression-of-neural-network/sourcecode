@@ -7,6 +7,7 @@ from MyModel_MNIST import *
 from MyModel_cifar import *
 import operator
 from kmeans_pytorch import kmeans_predict, kmeans
+from MobileNetV2 import *
 import sys
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
@@ -15,11 +16,11 @@ transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()]
 test_data = CIFAR10('./data', train=False, download=True, transform=transformer)
 test_loader = DataLoader(test_data, batch_size=64, shuffle=True)
 
-#test_data = MNIST('./data', train=False, download=True, transform=transformer)
-#test_loader = DataLoader(test_data, batch_size=64, shuffle=True)
+# test_data = MNIST('./data', train=False, download=True, transform=transformer)
+# test_loader = DataLoader(test_data, batch_size=64, shuffle=True)
 
 criterion = nn.CrossEntropyLoss()
-quantiz_level = [256, 128, 64, 32, 16, 8, 4]
+#quantiz_level = [256, 128, 64, 32, 16, 8, 4]
 
 
 def test(net):
@@ -44,9 +45,12 @@ def test(net):
 
 if __name__ == '__main__':
     net = MyModel_cifar().to(device)
-
+    #net = MobileNetV2().to(device)
+    #net = MyModel_MNIST().to(device)
     try:
-        net.load_state_dict(torch.load('MyModel_cifar.mod'))
+        #net.load_state_dict(torch.load('../saved_models_after_training/MyModel_MNIST_200.mod'))
+        net.load_state_dict(torch.load('../saved_models_after_training/MyModel_cifar_200.mod'))
+        #net.load_state_dict(torch.load('../saved_models_after_training/MobileNetV2_200.mod'))
         # net = torch.load('./lambda=1.pth')
     except Exception:
         print('no such file')
@@ -69,7 +73,7 @@ if __name__ == '__main__':
     # print(weights.size())
 
     cluster_ids_x, cluster_centers = kmeans(
-        X=weights, num_clusters=4, distance='euclidean', device=device, tol=0.0005
+        X=weights, num_clusters=2, distance='euclidean', device=device, tol=0.0005
     )
 
     # print(cluster_centers)
