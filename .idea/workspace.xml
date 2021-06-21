@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4080777-7d1a-4e64-b729-03c44ba0d8d1" name="Default Changelist" comment="" />
+    <list default="true" id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MyModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmean_quantiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmean_quantiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max-lloyd.py" beforeDir="false" afterPath="$PROJECT_DIR$/max-lloyd.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
