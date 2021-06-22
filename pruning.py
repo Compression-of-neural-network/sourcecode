@@ -2,7 +2,6 @@ from MobileNetV2 import *
 import torchvision
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader
-# from MyModel import *
 from MyModel_MNIST import *
 from MyModel_cifar import *
 import operator
@@ -45,7 +44,8 @@ def test(net, f):
 
 if __name__ == '__main__':
     net = MyModel_MNIST().to(device)
-    log_file = open("./pruning_log/pruning_log_MNIST_0.2.log", "w")
+    pruning_rate = 0.4
+    log_file = open("./pruning_log/pruning_log_MNIST_{}.log".format(pruning_rate), "w")
     # -------------load model-----------------
     try:
         net.load_state_dict(torch.load('./saved_models_after_training/MyModel_MNIST.mod'))
@@ -54,9 +54,9 @@ if __name__ == '__main__':
         exit()
     else:
         print('Successfully load net model')
-    # --------------before pruning--------------
-    print('before pruning:', file=log_file)
-    print('before pruning:')
+    # --------------Before pruning--------------
+    print('Before pruning:', file=log_file)
+    print('Before pruning:')
     test(net, log_file)
     # ---------------pruning----------------------
     parameters_to_prune = (
@@ -67,11 +67,12 @@ if __name__ == '__main__':
     prune.global_unstructured(
         parameters_to_prune,
         pruning_method=prune.L1Unstructured,
-        amount=0.2,
+        amount=pruning_rate,
     )
-    print('Pruning rate: 0.2')
-    # ------------------after kmeans---------------------
-    print('after pruning:', file=log_file)
-    print('after pruning:')
+    print('Pruning rate: {}'.format(pruning_rate), file=log_file)
+    print('Pruning rate: {}'.format(pruning_rate))
+    # ------------------After pruning---------------------
+    print('After pruning:', file=log_file)
+    print('After pruning:')
     test(net, log_file)
     log_file.close()

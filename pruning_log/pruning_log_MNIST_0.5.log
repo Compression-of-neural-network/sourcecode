@@ -1,0 +1,9 @@
+Before pruning:
+
+Test set: Avg. loss: 0.0456, Accuracy: 9893/10000 (99%)
+
+Pruning rate: 0.5
+After pruning:
+
+Test set: Avg. loss: 0.0727, Accuracy: 9772/10000 (98%)
+
