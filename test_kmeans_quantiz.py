@@ -53,15 +53,14 @@ if __name__ == '__main__':
     #original_stdout = sys.stdout
     #sys.stdout = log_file
 
-
     # for level in quantiz_level:
     for level in quantiz_level:
-
         try:
-            net.load_state_dict(torch.load('./MobileNetV2_200.mod'))
+            net.load_state_dict(torch.load('./saved_models_after_training/MobileNetV2_200.mod'))
             # net = torch.load('./lambda=1.pth')
         except Exception:
             print('no such file')
+            exit()
         else:
             print('Successfully load net model')
 
