@@ -9,6 +9,10 @@ import operator
 from kmeans_pytorch import kmeans_predict, kmeans
 import sys
 
+SEED = 0
+torch.manual_seed(SEED)
+torch.cuda.manual_seed(SEED)
+
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
 
 transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
