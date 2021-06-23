@@ -55,7 +55,7 @@ if __name__ == '__main__':
     print('Before pruning:', file=log_file)
     print('Before pruning:')
     test(net, log_file)
-    plot_weights(net)
+    plot_weights.plot_all_weights(net)
     # ---------------pruning----------------------
     parameters_to_prune = (
         (net.conv1, 'weight'),
@@ -73,5 +73,5 @@ if __name__ == '__main__':
     print('After pruning:', file=log_file)
     print('After pruning:')
     test(net, log_file)
-    plot_weights(net)
+    plot_weights.plot_all_weights(net)
     log_file.close()
