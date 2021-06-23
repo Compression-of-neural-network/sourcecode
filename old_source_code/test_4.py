@@ -1,14 +1,8 @@
-from MobileNetV2 import *
-import torchvision
-from torchvision.datasets import CIFAR10
-from torch.utils.data import DataLoader
 # from MyModel import *
-from MyModel_MNIST import *
-from MyModel_cifar import *
+from old_source_code.MyModel_cifar import *
 import operator
 from kmeans_pytorch import kmeans_predict, kmeans
-from MobileNetV2 import *
-import sys
+from old_source_code.MobileNetV2 import *
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
 

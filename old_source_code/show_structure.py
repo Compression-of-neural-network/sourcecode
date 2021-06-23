@@ -1,8 +1,5 @@
 from torchsummary import summary
-import torch
-from MyModel_cifar import *
-from MyModel_MNIST import *
-from MobileNetV2 import *
+from old_source_code.MobileNetV2 import *
 import sys
 
 if __name__ == '__main__':

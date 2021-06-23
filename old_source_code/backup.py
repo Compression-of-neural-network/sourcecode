@@ -1,4 +1,4 @@
-from MobileNetV2 import *
+from old_source_code.MobileNetV2 import *
 import torchvision
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader

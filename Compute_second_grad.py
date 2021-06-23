@@ -1,6 +1,4 @@
-from MobileNetV2 import *
-from MyModel_cifar import *
-from MyModel_MNIST import *
+from old_source_code.MyModel_MNIST import *
 import torchvision
 
 

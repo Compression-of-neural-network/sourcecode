@@ -19,7 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf503e7e-d4bc-4169-9ec8-86aee6611517" name="Default Changelist" comment="" />
+    <list default="true" id="407846b4-906a-4f05-b393-f863b36d5dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sourcecode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/masterthesis_git.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thesis_git.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compute_second_grad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Compute_second_grad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST.png" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad/MNIST.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileNet.png" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad/MobileNet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileNetV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MobileNetV2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileNetV2_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MobileNetV2_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyModel_MNIST.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MyModel_MNIST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyModel_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MyModel_cifar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyModel_train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyModel_train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cifar.png" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad/cifar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_source_code/backup.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/backup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_source_code/show_structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/show_structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_source_code/test_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/test_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruning.py" beforeDir="false" afterPath="$PROJECT_DIR$/pruning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_grad.pt" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad/second_grad.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_grad_MNIST.pt" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad/second_grad_MNIST.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_grad_cifar.pt" beforeDir="false" afterPath="$PROJECT_DIR$/second_grad/second_grad_cifar.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_kmeans_quantiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_kmeans_quantiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use_degree_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_degree_kmeans.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1tCiXBaE19odvaR03m4eN6T11Cr" />
+  <component name="ProjectId" id="1uLOTOuNMwZW47Igniwvijb8FCD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,46 +71,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/old_source_code/test_method.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\old_source_code" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git" />
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\sourcecode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\saved_models_after_training" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\old_source_code" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\result_of_quantiz_after_training_without_curvature" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git" />
-      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\Kmeans_quantiz_use_hassian" />
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\sourcecode\old_source_code" />
+      <recent name="C:\Users\pinliangli\Desktop\masterarbeit\sourcecode\second_grad" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_method">
-    <configuration name="Compute_second_grad" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Compute_second_grad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.MyModel_train_model">
     <configuration name="MyModel_train_model" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
+      <module name="sourcecode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -93,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pinliangli\Desktop\masterarbeit\thesis_git\MyModel_train_model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyModel_train_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +107,7 @@
       <method v="2" />
     </configuration>
     <configuration name="show_distribute" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
+      <module name="sourcecode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -123,50 +127,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old_source_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/old_source_code/test_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old_source_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/old_source_code/test_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_kmeans_quantiz" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="masterthesis_git" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="sourcecode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -177,28 +139,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_kmeans_quantiz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_method" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="thesis_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old_source_code" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/old_source_code/test_method.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,12 +149,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Compute_second_grad" />
-      <item itemvalue="Python.MyModel_train_model" />
       <item itemvalue="Python.show_distribute" />
-      <item itemvalue="Python.test_method" />
-      <item itemvalue="Python.test_4" />
-      <item itemvalue="Python.test_kmeans_quantiz" />
+      <item itemvalue="Python.MyModel_train_model" />
+      <item itemvalue="Python.test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -221,11 +159,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4080777-7d1a-4e64-b729-03c44ba0d8d1" name="Default Changelist" comment="" />
-      <created>1622279508611</created>
+      <changelist id="407846b4-906a-4f05-b393-f863b36d5dae" name="Default Changelist" comment="" />
+      <created>1624441409244</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622279508611</updated>
+      <updated>1624441409244</updated>
     </task>
     <servers />
   </component>
@@ -239,88 +177,39 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="976" y="291" key="#Compute_hessian_(1)" timestamp="1622638195956">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624444689161">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="291" key="#Compute_hessian_(1)/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638195956" />
-    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624286868181">
+    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624444689161" />
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1624444687657">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="792" y="664" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623337625565" />
-    <state x="431" y="563" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624286868181" />
-    <state x="1002" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623926232545">
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624444687657" />
+    <state width="2539" height="283" key="GridCell.Tab.0.bottom" timestamp="1624455024525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="-1168" y="618" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623335955620" />
-    <state x="1002" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623926232545" />
-    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622898959208">
+    <state width="2539" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624455024525" />
+    <state width="2539" height="283" key="GridCell.Tab.0.center" timestamp="1624455024525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622898959208" />
-    <state x="766" y="594" key="EnvironmentVariablesDialog" timestamp="1622287454246">
+    <state width="2539" height="283" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624455024525" />
+    <state width="2539" height="283" key="GridCell.Tab.0.left" timestamp="1624455024525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="766" y="594" key="EnvironmentVariablesDialog/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622287454246" />
-    <state x="1057" y="671" key="FileChooserDialogImpl" timestamp="1624286867225">
+    <state width="2539" height="283" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624455024525" />
+    <state width="2539" height="283" key="GridCell.Tab.0.right" timestamp="1624455024525">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="-1127" y="745" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623337619016" />
-    <state x="1057" y="671" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624286867225" />
-    <state width="1882" height="497" key="GridCell.Tab.0.bottom" timestamp="1623997513177">
+    <state width="2539" height="283" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624455024525" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1624441475704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1882" height="497" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623997513177" />
-    <state width="1882" height="497" key="GridCell.Tab.0.center" timestamp="1623997513177">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624441475704" />
+    <state x="-1798" y="236" width="1921" height="958" key="dock-window-1" timestamp="1624455054432">
+      <screen x="-1920" y="247" width="1920" height="1040" />
     </state>
-    <state width="1882" height="497" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623997513177" />
-    <state width="1882" height="497" key="GridCell.Tab.0.left" timestamp="1623997513177">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1882" height="497" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623997513177" />
-    <state width="1882" height="497" key="GridCell.Tab.0.right" timestamp="1623997513177">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1882" height="497" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1623997513177" />
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1622638350233">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638350233" />
-    <state width="2539" height="492" key="GridCell.Tab.1.center" timestamp="1622638350233">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638350233" />
-    <state width="2539" height="492" key="GridCell.Tab.1.left" timestamp="1622638350233">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638350233" />
-    <state width="2539" height="492" key="GridCell.Tab.1.right" timestamp="1622638350233">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622638350233" />
-    <state x="650" y="659" key="SettingsEditor" timestamp="1622639379279">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="650" y="659" key="SettingsEditor/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622639379279" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1622763989464">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622763989464" />
-    <state x="837" y="429" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622637931208">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="837" y="429" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622637931208" />
-    <state x="-857" y="604" width="1936" height="647" key="dock-window-1" timestamp="1623259641125">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="-857" y="604" width="1936" height="647" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1623259641125" />
-    <state x="410" y="419" width="1936" height="647" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622909762421" />
-    <state x="1448" y="632" width="672" height="678" key="search.everywhere.popup" timestamp="1622743966465">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1448" y="632" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1622743966465" />
+    <state x="-1798" y="236" width="1921" height="958" key="dock-window-1/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624455054432" />
   </component>
 </project>

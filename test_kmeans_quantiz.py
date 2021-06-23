@@ -1,13 +1,8 @@
-from MobileNetV2 import *
-import torchvision
-from torchvision.datasets import CIFAR10
-from torch.utils.data import DataLoader
+from old_source_code.MobileNetV2 import *
 # from MyModel import *
-from MyModel_MNIST import *
-from MyModel_cifar import *
+from old_source_code.MyModel_cifar import *
 import operator
 from kmeans_pytorch import kmeans_predict, kmeans
-import sys
 
 SEED = 0
 torch.manual_seed(SEED)
