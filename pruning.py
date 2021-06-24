@@ -1,15 +1,20 @@
-from old_source_code.MyModel_MNIST import *
-from old_source_code.MyModel_cifar import *
+from Models import *
 import torch.nn.utils.prune as prune
+import operator
 
 SEED = 0
 torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
+# transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
+# test_data = MNIST('./data', train=False, download=True, transform=transformer)
+# test_loader = DataLoader(test_data, batch_size=64, shuffle=True)
+
 transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
-test_data = MNIST('./data', train=False, download=True, transform=transformer)
+test_data = CIFAR10('./data', train=False, download=True, transform=transformer)
 test_loader = DataLoader(test_data, batch_size=64, shuffle=True)
+
 criterion = nn.CrossEntropyLoss()
 
 
@@ -36,12 +41,14 @@ def test(net, f):
 
 
 if __name__ == '__main__':
-    net = MyModel_MNIST().to(device)
-    pruning_rate = 0.4
-    log_file = open("./pruning_log/pruning_log_MNIST_{}.log".format(pruning_rate), "w")
+    #net = MyModel_MNIST().to(device)
+    net = VGG16().to(device)
+    #net = MobileNetV2().to(device)
+    pruning_rate = 0.99
+    log_file = open("./pruning_log/pruning_log_VGG16_{}.log".format(pruning_rate), "w")
     # -------------load model-----------------
     try:
-        net.load_state_dict(torch.load('./saved_models_after_training/MyModel_MNIST.mod'))
+        net.load_state_dict(torch.load('./saved_models_after_training/VGG16_200.mod'))
     except Exception:
         print('no such file')
         exit()
@@ -52,16 +59,37 @@ if __name__ == '__main__':
     print('Before pruning:')
     test(net, log_file)
     # ---------------pruning----------------------
-    parameters_to_prune = (
-        (net.conv1, 'weight'),
-        (net.conv2, 'weight'),
-        (net.fc1, 'weight'),
-    )
+    # parameters_to_prune = (
+    #     (net.conv1, 'weight'),
+    #     (net.conv2, 'weight'),
+    #     (net.fc1, 'weight'),
+    # )
+    # prune.global_unstructured(
+    #     parameters_to_prune,
+    #     pruning_method=prune.L1Unstructured,
+    #     amount=pruning_rate,
+    # )
+
+    parameters_to_prune = ()
+    print(type(parameters_to_prune))
+    parameters = net.named_parameters()
+    for name, param in parameters:
+        print(name.split("."))
+        name = name.split(".")
+        if name[1] == 'weight':
+            x = operator.attrgetter(name[0])(net)
+            x = ((x, 'weight'), (x, 'bias'))
+            parameters_to_prune = parameters_to_prune + x
+
+
+    print(parameters_to_prune)
+
     prune.global_unstructured(
         parameters_to_prune,
         pruning_method=prune.L1Unstructured,
         amount=pruning_rate,
     )
+
     print('Pruning rate: {}'.format(pruning_rate), file=log_file)
     print('Pruning rate: {}'.format(pruning_rate))
     # ------------------After pruning---------------------

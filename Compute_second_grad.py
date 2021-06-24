@@ -1,14 +1,14 @@
-from old_source_code.MyModel_MNIST import *
+from Models import *
 import torchvision
 
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
 
-# transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
-# train_data = CIFAR10('./data', train=True, download=True, transform=transformer)
-
 transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
-train_data = MNIST('./data', train=True, download=True, transform=transformer)
+train_data = CIFAR10('./data', train=True, download=True, transform=transformer)
+
+# transformer = torchvision.transforms.Compose([torchvision.transforms.ToTensor()])
+# train_data = MNIST('./data', train=True, download=True, transform=transformer)
 
 
 def eval_hessian(loss_grad, model):
@@ -88,9 +88,9 @@ if __name__ == '__main__':
 
     #net = MyModel_cifar().to(device)
     #net = MobileNetV2().to(device)
-    net = MyModel_MNIST().to(device)
+    net = VGG16().to(device)
     try:
-        net.load_state_dict(torch.load('./saved_models_after_training/MyModel_MNIST_200.mod'))
+        net.load_state_dict(torch.load('./saved_models_after_training/VGG16_200.mod'))
     except Exception:
         print('no such file')
     else:
@@ -98,4 +98,4 @@ if __name__ == '__main__':
     hessian = compute_hessian(net)
     #print(hessian.shape)
     print(hessian.data.size())
-    torch.save(hessian, 'second_grad_MNIST.pt')
+    torch.save(hessian, 'second_grad_VGG16.pt')

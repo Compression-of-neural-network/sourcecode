@@ -1,6 +1,4 @@
-from old_source_code.MobileNetV2 import *
-# from MyModel import *
-from old_source_code.MyModel_cifar import *
+from Models import *
 import operator
 from kmeans_pytorch import kmeans_predict, kmeans
 
@@ -45,17 +43,17 @@ def test(net, f):
 
 if __name__ == '__main__':
     # net = MyModel_cifar().to(device)
-    net = MobileNetV2().to(device)
+    net = VGG16().to(device)
     # vgg19 = models.vgg19(pretrained=True).to(device)
 
-    log_file = open("result_of_quantiz_after_training_without_curvature/MyModel_MNIST_200.log", "w")
+    log_file = open("result_of_quantiz_after_training_without_curvature/VGG16_200.log", "w")
     #original_stdout = sys.stdout
     #sys.stdout = log_file
 
     # for level in quantiz_level:
     for level in quantiz_level:
         try:
-            net.load_state_dict(torch.load('./saved_models_after_training/MobileNetV2_200.mod'))
+            net.load_state_dict(torch.load('./saved_models_after_training/VGG16_200.mod'))
             # net = torch.load('./lambda=1.pth')
         except Exception:
             print('no such file')

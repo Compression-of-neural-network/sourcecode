@@ -1,0 +1,40 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Successfully load net model
+
+Test set: Avg. loss: 0.7451, Accuracy: 8194/10000 (82%)
+
+torch.Size([14728266, 1])
+[10, 100, 1000, 10000, 100000, 1000000, 10000000, 3617156]
+running k-means on cuda:0..
+tensor(-0.0002, device='cuda:0')
+running k-means on cuda:0..
+tensor(1.3750e-05, device='cuda:0')
+running k-means on cuda:0..
+tensor(0.0002, device='cuda:0')
+running k-means on cuda:0..
+tensor(0.0002, device='cuda:0')
+running k-means on cuda:0..
+tensor(0.0002, device='cuda:0')
+running k-means on cuda:0..
+tensor(0.0003, device='cuda:0')
+running k-means on cuda:0..
+tensor(-5.4174e-05, device='cuda:0')
+tensor([[-0.0008],
+        [ 0.0028],
+        [ 0.0109],
+        ...,
+        [-0.0004],
+        [-0.0248],
+        [-0.0110]])
+tensor([[-0.0008],
+        [ 0.0028],
+        [ 0.0109],
+        ...,
+        [-0.0014],
+        [-0.0095],
+        [-0.0095]], device='cuda:0')
+[1728, 64, 64, 64, 36864, 64, 64, 64, 73728, 128, 128, 128, 147456, 128, 128, 128, 294912, 256, 256, 256, 589824, 256, 256, 256, 589824, 256, 256, 256, 1179648, 512, 512, 512, 2359296, 512, 512, 512, 2359296, 512, 512, 512, 2359296, 512, 512, 512, 2359296, 512, 512, 512, 2359296, 512, 512, 512, 5120, 10]
+
+Test set: Avg. loss: 7.8986, Accuracy: 1006/10000 (10%)
+

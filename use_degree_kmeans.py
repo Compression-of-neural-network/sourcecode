@@ -1,4 +1,4 @@
-from old_source_code.MobileNetV2 import *
+from Models import *
 import torchvision
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader
@@ -39,28 +39,29 @@ def test(net):
 
 if __name__ == '__main__':
 
-    log_file = open("message.log", "w")
-    sys.stdout = log_file
+    #log_file = open("message.log", "w")
+    #sys.stdout = log_file
 
     # net = MyModel().to(device)
-    net = MobileNetV2().to(device)
+    net = VGG16().to(device)
     # vgg19 = models.vgg19(pretrained=True).to(device)
 
-    try:
-        net.load_state_dict(torch.load('./MobileNetV2_200.mod'))
+    #try:
+    net.load_state_dict(torch.load('./saved_models_after_training/VGG16_200.mod'))
         # net = torch.load('./lambda=1.pth')
-    except Exception:
-        print('no such file')
-    else:
-        print('Successfully load net model')
+    #except Exception:
+    #    print('no such file')
+    #else:
+    #    print('Successfully load net model')
 
     # --------------before kmeans--------------
     test(net)
 
     # --------------sort second_grad------------
-    second_grad = torch.load('./second_grad.pt').flatten()
+    second_grad = torch.load('./second_grad_VGG16.pt').flatten()
     second_grad_descending, indices = torch.sort(torch.abs(second_grad), descending=True)
 
+    print(second_grad_descending)
     parm = net.parameters()
     for i, p in enumerate(parm):
 
@@ -76,7 +77,7 @@ if __name__ == '__main__':
     print(order_weights.size())
 
     degree = []
-    i = 100
+    i = 1400000
     p = 0
     while (p < second_grad.size()[0]):
         degree.append(i)
@@ -141,4 +142,4 @@ if __name__ == '__main__':
     # ------------------after kmeans---------------------
     test(net)
 
-    log_file.close()
+    #log_file.close()

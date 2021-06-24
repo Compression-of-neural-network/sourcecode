@@ -5,6 +5,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision.datasets import MNIST
 from torchvision.datasets import CIFAR10
+from torchvision.datasets import CIFAR100
 from torch.utils.data import DataLoader
 
 
@@ -122,7 +123,7 @@ class MobileNetV2(nn.Module):
         super(MobileNetV2, self).__init__()
         if CFG is None:
             CFG = {
-                'batch_size': 128,
+                'batch_size': 64,
                 'learning_rate': 0.001,
                 'epoch': 200,
             }
@@ -180,9 +181,9 @@ class VGG16(nn.Module):
         super(VGG16, self).__init__()
         if CFG is None:
             CFG = {
-                'batch_size': 128,
+                'batch_size': 64,
                 'learning_rate': 0.001,
-                'epoch': 200,
+                'epoch': 20,
             }
         self.features = self._make_layers(self.layer_set)
         self.classifier = nn.Linear(512, 10)
