@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="407846b4-906a-4f05-b393-f863b36d5dae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/plot_weights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sourcecode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compute_second_grad.py" beforeDir="false" afterPath="$PROJECT_DIR$/Compute_second_grad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyModel_train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyModel_train_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VGG16_200.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_source_code/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_source_code/MyModel_MNIST.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MyModel_MNIST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_source_code/MyModel_cifar.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_source_code/MyModel_cifar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pruning.py" beforeDir="false" afterPath="$PROJECT_DIR$/pruning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/show_distribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_distribute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_kmeans_quantiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_kmeans_quantiz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_degree_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_degree_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,27 +73,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.pruning">
-    <configuration name="Compute_second_grad" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="sourcecode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\workspace\System\anaconda\envs\masterthesis\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Compute_second_grad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="MyModel_train_model" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sourcecode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,13 +200,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Compute_second_grad" />
       <item itemvalue="Python.MyModel_train_model" />
+      <item itemvalue="Python.pruning" />
       <item itemvalue="Python.show_distribute" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.test_kmeans_quantiz" />
       <item itemvalue="Python.use_degree_kmeans" />
-      <item itemvalue="Python.pruning" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -263,30 +244,30 @@
     </state>
     <state x="-1125" y="585" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624469790755" />
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624523105543" />
-    <state width="1899" height="283" key="GridCell.Tab.0.bottom" timestamp="1624528210237">
-      <screen x="-1920" y="247" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
-    <state width="2539" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624527927278" />
-    <state width="1899" height="283" key="GridCell.Tab.0.center" timestamp="1624528210237">
-      <screen x="-1920" y="247" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
-    <state width="2539" height="283" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624527927277" />
-    <state width="1899" height="283" key="GridCell.Tab.0.left" timestamp="1624528210237">
-      <screen x="-1920" y="247" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
-    <state width="2539" height="283" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624527927277" />
-    <state width="1899" height="283" key="GridCell.Tab.0.right" timestamp="1624528210237">
-      <screen x="-1920" y="247" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="283" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
-    <state width="2539" height="283" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624527927278" />
-    <state x="781" y="344" key="SettingsEditor" timestamp="1624441475704">
+    <state width="2539" height="283" key="GridCell.Tab.0.bottom" timestamp="1624549416159">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624441475704" />
+    <state width="1899" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
+    <state width="2539" height="283" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624549416159" />
+    <state width="2539" height="283" key="GridCell.Tab.0.center" timestamp="1624549416159">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
+    <state width="2539" height="283" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624549416159" />
+    <state width="2539" height="283" key="GridCell.Tab.0.left" timestamp="1624549416159">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
+    <state width="2539" height="283" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624549416159" />
+    <state width="2539" height="283" key="GridCell.Tab.0.right" timestamp="1624549416159">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="283" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@-1920.247.1920.1040" timestamp="1624528210237" />
+    <state width="2539" height="283" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624549416159" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1624549506443">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/-1920.247.1920.1040@0.0.2560.1400" timestamp="1624549506443" />
     <state x="-1798" y="236" width="1921" height="958" maximized="true" key="dock-window-1" timestamp="1624475437721">
       <screen x="-1920" y="247" width="1920" height="1040" />
     </state>
